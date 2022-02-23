@@ -1,0 +1,129 @@
+ul.year-data {
+  padding: 0;
+  margin: 0;
+}
+.site-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.resume {
+  overflow-y: auto;
+  overflow-x: hidden;
+  h2 {
+    font-size: 2rem;
+    margin: 30px;
+    text-align: center;
+  }
+}
+.info {
+  position: relative;
+  background-color: white;
+  box-shadow: -8px 0px 5px 10px #ccc;
+  min-width: 250px;
+  .fixed {
+    z-index: 999999;
+    position: fixed;
+    padding: 1rem;
+    width: 250px;
+    left: 0;
+    top: 0;
+  }
+  .icons {
+    .popper {
+      margin-left: -5px !important;
+    }
+    i {
+      font-style: normal;
+      font-size: 1.5rem;
+      margin: 0 0.5rem 0.5rem;
+      &.blocky {
+        color: white;
+        background-color: #ccc;
+        border-radius: 5px;
+      }
+    }
+    a {
+      color: #ccc;
+    }
+    a:hover {
+      color: orange;
+    }
+    a:active {
+      color: rgb(212, 143, 16);
+    }
+  }
+  .name {
+    text-align: center;
+    img {
+      border-radius: 20px;
+      margin-top: 20px;
+    }
+  }
+  h1 {
+    font-size: 2rem;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  h3 {
+    font-size: 1rem;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+    .inline-block {
+      border-top: none!important;
+      border-bottom: none!important;
+    }
+  }
+  a {
+    // color: rgb(212, 143, 16);
+    color: #d17d00;
+    // text-decoration: un;
+    &:hover {
+      color:rgb(212, 62, 3);
+    }
+  }
+}
+.contact-form {
+  text-align: center !important;
+  input, textarea {
+    background:orange;
+    color: white !important;;
+    display: block;
+    border:none ;
+    // border:1px solid white;
+    width: 250px;
+    margin-bottom: 10px;
+    padding:8px;
+    outline: none;
+  }
+  input::placeholder, textarea::placeholder {
+    color: white !important;
+    font-style: italic;
+  }
+  input[type="submit"] {
+    width: auto;
+  }
+  textarea {
+    height: 200px;
+  }
+}
+.ml-5 { margin-left: 5px; }
+.ml-0 { margin-left: 0; }
+ul {
+  // list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.col-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
