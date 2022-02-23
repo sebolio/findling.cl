@@ -5,11 +5,11 @@ export default {
             title: 'VetMaster',
             description: 'Online veterinary clinic management SaaS platform.',
             images: [
-                {src: '/captures/vetmaster1.png' },
-                {src: '/captures/vetmaster2.png' },
-                {src: '/captures/vetmaster3.png' },
-                {src: '/captures/vetmaster4.png' },
-                {src: '/captures/vetmaster5.png' },
+                {src: '/captures/vetmaster1.jpg' },
+                {src: '/captures/vetmaster2.jpg' },
+                {src: '/captures/vetmaster3.jpg' },
+                {src: '/captures/vetmaster4.jpg' },
+                {src: '/captures/vetmaster5.jpg' },
             ]
         },
         {

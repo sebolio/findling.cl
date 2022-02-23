@@ -33,6 +33,7 @@ ul.year-data {
     top: 0;
   }
   .icons {
+    text-align: center;
     .popper {
       margin-left: -5px !important;
     }
@@ -84,6 +85,64 @@ ul.year-data {
     &:hover {
       color:rgb(212, 62, 3);
     }
+  }
+}
+@media (min-width: 1200px) {
+  .info {
+    min-width: 350px;
+    .fixed {
+      width: 350px;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .site-container { display: block; }
+  .fixed { 
+    position: relative !important; 
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .info {
+    width: 100%;
+    display: block; 
+    height: 180px;
+    position: relative;
+    .name {
+      float: left;
+      width: 200px;
+      margin:0px;
+      padding: 0px;
+      img { 
+        width:110px; 
+        border-radius: 0px !important; 
+      }
+      h1 { 
+        font-size: 1.2rem; 
+        left: 200px;
+        top:00px;
+        font-weight: bold;
+        position: absolute;
+      }
+    }
+    h3 {
+      width: calc(100vw - 223px);
+      float: left;
+      margin: 0px;
+      margin-top: 60px;
+      padding: 0px;
+    }
+    .icons {
+      position: absolute;
+      width: 200px;
+      height: 50px;
+      left: 0px;
+      top: 130px;  
+    }
+  }
+  .resume { 
+    width: 100%; 
+    display: inline-block;
   }
 }
 .contact-form {
