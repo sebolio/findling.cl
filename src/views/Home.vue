@@ -83,10 +83,11 @@ onMounted(async _ => {
       >
         <ul class="year-data">
           <YearData
-            v-for="item in year.items"
+            v-for="(item, i) in year.items"
             :title="item.title"
             :description="item.description"
             :images="item.images"
+            :last="i === year.items.length - 1"
           />
         </ul>
       </Year>

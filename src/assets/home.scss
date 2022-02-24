@@ -1,6 +1,7 @@
 ul.year-data {
   padding: 0;
   margin: 0;
+  margin-top: 30px;
 }
 .site-container {
   display: flex;
@@ -16,7 +17,8 @@ ul.year-data {
   h2 {
     font-size: 2rem;
     margin: 30px;
-    text-align: center;
+    // text-align: center;
+    margin-left: 100px;
   }
 }
 .info {
