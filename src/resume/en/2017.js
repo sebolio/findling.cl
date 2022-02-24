@@ -5,6 +5,7 @@ export default {
             title: 'Elder',
             description: 'Software Framework that allowed me to easily create small software with my own prebuilt blocks, in a visual manner',
             images: [
+                { src:'elder1.jpg' }
             ]
         },
     ],
