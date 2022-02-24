@@ -46,20 +46,9 @@ onMounted(async _ => {
         </section>
         <h3>
           Very creative developer and consultant. Pastime musician, 34, CTO in
-          <Popper placement="right" arrow hover openDelay="300">
-            <template #content>
-                <img src="https://seb.cl/captures/dreamoms1.jpg" width="300" />
-                <p>Educational and medical platform for mothers<br>and pregnants</p>
-            </template>
-            <a href="//dreamoms.com" target="_blank">Dreamoms</a>
-          </Popper> and founder of
-          <Popper placement="right" arrow hover openDelay="300">
-            <template #content>
-                <img src="https://seb.cl/captures/puntero.jpg" width="300" />
-                <p>Software for everything and everyone</p>
-            </template>
+            <a href="//dreamoms.com" target="_blank">Dreamoms</a> and founder of
             <a href="//puntero.cl" target="_blank">Puntero</a>
-          </Popper> <!--and author of
+          <!--and author of
           <Popper placement="right" arrow hover openDelay="300">
             <template #content>
                 <img src="https://seb.cl/captures/blox.jpg" width="300" />
