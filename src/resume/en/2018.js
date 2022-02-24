@@ -5,11 +5,11 @@ export default {
             title: 'ETP',
             description: 'SaaS, resellable, knowledge management software built in Elder',
             images: [
-                {src: '/captures/etp1.jpg' },
-                {src: '/captures/etp2.jpg' },
-                {src: '/captures/etp3.jpg' },
-                {src: '/captures/etp4.jpg' },
-                {src: '/captures/etp5.jpg' },
+                {src: 'etp1.jpg' },
+                {src: 'etp2.jpg' },
+                {src: 'etp3.jpg' },
+                {src: 'etp4.jpg' },
+                {src: 'etp5.jpg' },
             ]
         },
     ],

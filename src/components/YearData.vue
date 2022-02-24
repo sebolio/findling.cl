@@ -4,7 +4,7 @@ import { onMounted, ref } from 'vue';
 const props = defineProps(['title', 'description', 'images'])
 const currentOpenImage = ref(null);
 const assetLocation = (uri) => uri.replace('@', location.hostname === 'seb.cl' ? '/assets' : '/src/assets'); //fix for local development
-const imageMap = props.images ? ['', ...props.images.map(image => image.src ? assetLocation(image.src) : image)] : []
+const imageMap = props.images ? ['', ...props.images.map(image => image.src ? assetLocation('/captures/'+image.src) : image)] : []
 </script>
 
 <template>
@@ -23,10 +23,10 @@ const imageMap = props.images ? ['', ...props.images.map(image => image.src ? as
         openDelay="90"
       >
         <template #content>
-          <img :src="assetLocation(image.src)" width="300" v-if="image.src && assetLocation" />
+          <img :src="assetLocation('/thumbs/'+image.src)" width="300" v-if="image.src && assetLocation" />
           <p v-if="image.alt" style="text-align: center;">Click para agrandar</p>
         </template>
-        <br><img :src="assetLocation(image.src)" height="50" class="file" v-if="image.src && assetLocation" />
+        <br><img :src="assetLocation('/thumbs/'+image.src)" height="50" class="file" v-if="image.src && assetLocation" />
       </Popper>
     </div>
   </li>

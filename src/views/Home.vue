@@ -72,7 +72,7 @@ onMounted(async _ => {
     </div>
 
     <div class="resume">
-      <h2>Experience</h2>
+      <h2>Experience <!--<a class="view-seb" href="https://seb.cl">Interactive version available in <b>www.seb.cl</b></a>--></h2>
       <Year
         v-for="(year, i) in resume"
         :year="year.year"

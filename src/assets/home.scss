@@ -95,7 +95,7 @@ ul.year-data {
     }
   }
 }
-@media (max-width: 800px) {
+@mexdia (max-width: 800px) {
   .site-container { display: block; }
   .fixed { 
     position: relative !important; 
@@ -185,4 +185,17 @@ ul {
 .col-6 {
   padding-left: 0;
   padding-right: 0;
+}
+
+.view-seb,
+.view-seb:hover {
+  display: block;
+  background-color: rgb(255, 94, 0);
+  padding: 5px;
+  text-decoration: none;
+  width: 270px;
+  color:white;
+  margin: auto;
+  border: 1px solid;
+  font-size: 1rem;
 }

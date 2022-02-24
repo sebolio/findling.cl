@@ -6,11 +6,5 @@ export default {
             images: [
             ]
         },
-        {
-            title: 'MrOutlet??',
-            description: '',
-            images: [
-            ]
-        },
     ],
 }
