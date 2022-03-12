@@ -46,7 +46,7 @@ onMounted(async _ => {
         </section>
         <h3>
           CTO in <a href="//dreamoms.com" target="_blank">Dreamoms</a>, founder of <a href="//puntero.cl" target="_blank">Puntero</a>. 
-          Creativity in software development and consultancy. More than <b>20 years</b> of experience.
+          Creativity in software development and consultancy. Over 24 years' experience.
         </h3>
       </div>
     </div>

@@ -7,11 +7,11 @@ Project is built into the `docs` folder to use GitHub's hosting service from the
 ### Development
 
 ```sh
-pnpm run dev
+pnpm dev
 ```
 
 ### Build/deploy into `docs` folder
 
 ```sh
-pnpm run build
+pnpm build
 ```
