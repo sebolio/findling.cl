@@ -18,10 +18,10 @@ export default {
                           real-time feedback and rating results. It also provides a platform for your customers \
                           to rate your services and products.',
             images: [
-                {src: '1n-solicitud.jpg', alt: 'Stage 1: Invitation to rate' },
-                {src: '1n-form.jpg', alt: 'Stage 2: Rating form' },
-                {src: '1n-valoracion.jpg', alt: 'Stage 3: Informing the company' },
-                {src: '1n-opiniones.jpg', alt: 'Feedbacks appear in real-time' },
+                {src: '1n-solicitud.jpg' },
+                {src: '1n-form.jpg' },
+                {src: '1n-valoracion.jpg' },
+                {src: '1n-opiniones.jpg' },
             ]
         },
         {
@@ -30,8 +30,8 @@ export default {
                           my skills in a simple and clean way. It\'s really easy to add new data to the resume\
                           using an object API.',
             images: [
-                {src: 'seb.cl.jpg', alt: 'Straight-forward, clean code' },
-                {src: 'seb.cl-easy-resume.jpg', alt: 'Extremely easy to update' },
+                {src: 'seb.cl.jpg' },
+                {src: 'seb.cl-easy-resume.jpg' },
             ]
         },
     ],
