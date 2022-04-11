@@ -1,8 +1,7 @@
 export default {
     first: true,
-    items: [
-        {
-            title: 'CTO in Dreamoms since 2021',
+    items: [{
+            title: 'CTO at Dreamoms since 2021',
             description: 'We created a platform with services for current and future mothers, \
                           which offers online courses with videos and video calls, depression prevention tests,\
                           professional help with real time scheduling and more.',
@@ -18,10 +17,10 @@ export default {
                           real-time feedback and rating results. It also provides a platform for your customers \
                           to rate your services and products.',
             images: [
-                {src: '1n-solicitud.jpg' },
-                {src: '1n-form.jpg' },
-                {src: '1n-valoracion.jpg' },
-                {src: '1n-opiniones.jpg' },
+                { src: '1n-solicitud.jpg' },
+                { src: '1n-form.jpg' },
+                { src: '1n-valoracion.jpg' },
+                { src: '1n-opiniones.jpg' },
             ]
         },
         {
@@ -30,8 +29,8 @@ export default {
                           my skills in a simple and clean way. It\'s really easy to add new data to the resume\
                           using an object API.',
             images: [
-                {src: 'seb.cl.jpg' },
-                {src: 'seb.cl-easy-resume.jpg' },
+                { src: 'seb.cl.jpg' },
+                { src: 'seb.cl-easy-resume.jpg' },
             ]
         },
     ],
