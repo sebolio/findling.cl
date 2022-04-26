@@ -20,7 +20,7 @@ onMounted(async _ => {
       <div class="fixed">
         <section class="name">
           <img src="@/assets/avatar.jpg" width="200" />
-          <h1>Seb Findling</h1>
+          <h1>Sebastián Findling</h1>
           <div class="icons">
               <Popper content="Linkedin" hover arrow :interactive="false">
                 <a href="//linkedin.com/in/seb-findling" target="_blank">
