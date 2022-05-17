@@ -2,7 +2,7 @@ export default {
     items: [
         {
             title: 'Club de Amigos de los Animales (CAA)',
-            description: 'My first website written in Microsoft Frontpage **at the age of 11**, with pictures of neigbours\' pets.',
+            description: 'At the age of 11, I created my first website written in Microsoft Frontpage, with pictures of neighbours\' pets.',
             images: [
             ]
         },

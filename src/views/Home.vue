@@ -21,7 +21,7 @@ onMounted(async _ => {
         <section class="name">
           <img src="@/assets/avatar.jpg" width="200" />
           <h1>Sebastián Findling</h1>
-          <div class="icons">
+          <div class="icons screen">
               <Popper content="Linkedin" hover arrow :interactive="false">
                 <a href="//linkedin.com/in/sebastian-findling" target="_blank">
                   <i class="fa-brands fa-linkedin"></i>
@@ -44,9 +44,18 @@ onMounted(async _ => {
               </Popper>
           </div>
         </section>
-        <h3>
-          CTO at <a href="//dreamoms.com" target="_blank">Dreamoms</a>, founder of <a href="//puntero.cl" target="_blank">Puntero</a>. 
+        <h3 class="screen">
+          CTO at <a href="//dreamoms.com" target="_blank">Dreamoms</a>, founder of <a href="//puntero.cl" target="_blank">Puntero</a>.
           Creativity in software development and consultancy. Over 24 years' experience.
+        </h3>
+        <h3 class="print">
+          I am a software developer with over 20 years of experience, interested in creativity and functionality. I have been an entrepreneur, led technology departments and teams, been incubated by 500Startups, worked freelance and in teams of all sizes.
+          <br><br>
+          <li>Email: sebastian@findling.cl</li>
+          <li>Phone: +569 </li>
+          <li>Portfolio: <a href="https://findling.cl">https://findling.cl</a></li>
+          <li>Residence: Santiago de Chile</li>
+          <br><br><br>
         </h3>
       </div>
     </div>
@@ -71,7 +80,7 @@ onMounted(async _ => {
           />
         </ul>
       </Year>
-      <h2>Phew.. that's a lot</h2>
+      <h2>Phew... that's a lot</h2>
 
     </div>
   </div>

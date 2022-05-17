@@ -14,7 +14,7 @@ export default {
         },
         {
             title: 'Garetto',
-            description: 'Online web platform for visually designing and buying paper stamps',
+            description: 'Online web platform for visually designing and buying paper stamps.',
             images: [
                 {src: 'garetto1.jpg', alt: 'Tweaking the software brain' },
                 {src: 'garetto2.jpg', alt: 'Tweaking the software brain' },

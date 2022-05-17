@@ -3,7 +3,7 @@ export default {
     items: [
         {
             title: 'Namelty',
-            description: 'Web app for finding perfect domain names for startups, that finds the shortest ways for a word (for the word "maxis" it would try "max.is", "ma.xis" and "maxis.com" among others) and their availability in social networks and trademarks.',
+            description: 'Web app for finding perfect domain names for startups, that finds the shortest ways for a word: if you search "`maxin`", it will look for `max.in`, `ma.xin` and `maxin.com`, and availability in social networks and trademarks.',
             images: [
             ]
         },

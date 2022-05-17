@@ -18,7 +18,7 @@ html,
 body {
   font: 100% "Lato", sans-serif;
   font-weight: 300;
-  height: 100%;
+  /* height: 100%; */
   background-color: var(--back);
   font-size: 16px;
   overflow-x: hidden;
@@ -65,7 +65,7 @@ body {
 }
 .year.row .col-2.full::after {
   height: 100%;
-  left: calc(50% - var(--weight) +0px);
+  left: calc(50% - var(--weight) + 2px);
 }
 .justify-content-endyear.row .col-2.full::after {
   left: calc(50% - 2px );

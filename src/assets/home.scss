@@ -10,7 +10,6 @@ ul.year-data {
   align-items: stretch;
   padding: 0;
   margin: 0;
-  height: 100%;
 }
 
 .resume {
@@ -121,7 +120,41 @@ ul.year-data {
   }
 }
 
-@media (max-width: 800px) {
+//variaciones para impresion
+@media print {
+  .info {
+    h3 {
+      font-size: 30px !important;
+      line-height: 33px !important;
+    }
+    .name {
+      h1 {
+        margin-left: 20px;
+      }
+    }
+  }
+  .print {
+    display: block !important;
+  }
+  .screen {
+    display: none !important;
+  }
+}
+
+@media screen {
+  .print {
+    display: none !important;
+  }
+  .screen {
+    display: block !important;
+  }
+}
+
+.separator {
+  margin-top: 400px;
+}
+
+@media screen and (max-width: 800px), print { //1800=PDF , 800=web
   .site-container {
     display: block;
   }
@@ -160,14 +193,18 @@ ul.year-data {
     }
 
     h3 {
-      width: calc(100vw - 160px);
+      width: calc(100vw - 200px); //200=PDF, 160=web
       float: left;
       margin: 0px;
       margin-top: 70px;
-      margin-left: -20px;
+      margin-left: -0px;
       padding: 0px;
       font-size: .8rem;
       line-height: .99rem;
+
+      li {
+        font-size: 15px;
+      }
     }
 
     .icons {
@@ -198,7 +235,6 @@ ul.year-data {
   textarea {
     background: orange;
     color: white !important;
-    ;
     display: block;
     border: none;
     // border:1px solid white;

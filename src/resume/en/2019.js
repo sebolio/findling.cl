@@ -7,7 +7,7 @@ export default {
         },
         {
             title: 'MERA',
-            description: 'Prototype of a multiplayer open-world game about pre-columbian America.',
+            description: 'Prototype of a multiplayer open-world game about pre-Columbian America.',
             images: []
         },
     ],

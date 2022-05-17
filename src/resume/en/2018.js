@@ -3,7 +3,7 @@ export default {
     items: [
         {
             title: 'ETP',
-            description: 'Knowledge management SaaS built in Elder',
+            description: 'SaaS software for knowledge management, built in my visual framework `Elder`. Developed for a company who sells it to their customers.',
             images: [
                 {src: 'etp1.jpg' },
                 {src: 'etp2.jpg' },

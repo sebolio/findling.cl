@@ -14,7 +14,7 @@ export default {
         {
             title: '1n',
             description: 'Marketing platform that sends automated rating requests to your customers, showing\
-                          real-time feedback and rating results. It also provides a platform for your customers \
+                          real-time feedback and rating results. It also supplies a platform for your customers \
                           to rate your services and products.',
             images: [
                 { src: '1n-solicitud.jpg' },
@@ -26,8 +26,7 @@ export default {
         {
             title: 'seb.cl',
             description: 'Released my website as an open-source project. It allows me to show my work and\
-                          my skills in a simple and clean way. It\'s really easy to add new data to the resume\
-                          using an object API.',
+                          skills in a simple and clean way, with an easy-to-use object API.',
             images: [
                 { src: 'seb.cl.jpg' },
                 { src: 'seb.cl-easy-resume.jpg' },
