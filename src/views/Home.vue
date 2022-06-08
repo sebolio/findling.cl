@@ -22,14 +22,14 @@ onMounted(async _ => {
           <img src="@/assets/avatar.jpg" width="200" />
           <h1>Sebastián Findling</h1>
           <div class="icons screen">
-              <Popper content="Linkedin" hover arrow :interactive="false">
-                <a href="//linkedin.com/in/sebastian-findling" target="_blank">
-                  <i class="fa-brands fa-linkedin"></i>
-                </a>
-              </Popper>
               <Popper content="WhatsApp" hover arrow :interactive="false">
                 <a href="//wa.me/56937067212" target="_blank">
                   <i class="fa-brands fa-whatsapp-square"></i>
+                </a>
+              </Popper>
+              <Popper content="Linkedin" hover arrow :interactive="false">
+                <a href="//linkedin.com/in/sebastian-findling" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
                 </a>
               </Popper>
               <Popper content="GitHub" hover arrow :interactive="false">
@@ -37,11 +37,11 @@ onMounted(async _ => {
                   <i class="fa-brands fa-github-square"></i>
                 </a>
               </Popper>
-              <Popper content="Music" hover arrow :interactive="false">
+              <!-- <Popper content="Music" hover arrow :interactive="false">
                 <a href="//soundcloud.com/rojosostenido" target="_blank">
                   <i class="fa-solid fa-square-caret-right"></i>
                 </a>
-              </Popper>
+              </Popper> -->
           </div>
         </section>
         <h3 class="screen">
