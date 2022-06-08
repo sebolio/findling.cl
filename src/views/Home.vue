@@ -27,9 +27,19 @@ onMounted(async _ => {
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
               </Popper>
+              <Popper content="WhatsApp" hover arrow :interactive="false">
+                <a href="//wa.me/56937067212" target="_blank">
+                  <i class="fa-brands fa-whatsapp-square"></i>
+                </a>
+              </Popper>
               <Popper content="GitHub" hover arrow :interactive="false">
                 <a href="//github.com/sebfindling" target="_blank">
                   <i class="fa-brands fa-github-square"></i>
+                </a>
+              </Popper>
+              <Popper content="Music" hover arrow :interactive="false">
+                <a href="//soundcloud.com/rojosostenido" target="_blank">
+                  <i class="fa-solid fa-square-caret-right"></i>
                 </a>
               </Popper>
           </div>
