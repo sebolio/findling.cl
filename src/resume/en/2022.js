@@ -7,8 +7,14 @@ export default {
                           professional help with real time scheduling and more.',
             images: [
                 { src: 'dreamoms1.jpg' },
-                { src: 'dreamoms2.jpg' },
                 { src: 'dreamoms3.jpg' },
+                { src: 'dreamoms4.jpg' },
+                { src: 'dreamoms5.jpg' },
+                { src: 'dreamoms6.jpg' },
+                { src: 'dreamoms7.jpg' },
+                { src: 'dreamoms8.jpg' },
+                { src: 'dreamoms2.jpg' },
+                { src: 'dreamoms9.jpg' },
             ]
         },
         {

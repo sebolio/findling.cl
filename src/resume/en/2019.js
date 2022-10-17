@@ -3,7 +3,12 @@ export default {
     items: [{
             title: 'CTO at Add Shop',
             description: 'Using my framework Elder as a base, we created a social network with integrated e-commerce marketplace, that won the incubation of 500 Startups in Mexico.',
-            images: []
+            images: [
+                { src: 'addshop4.jpg' },
+                { src: 'addshop2.jpg' },
+                { src: 'addshop3.jpg' },
+                { src: 'addshop1.jpg' },
+            ]
         },
         {
             title: 'MERA',

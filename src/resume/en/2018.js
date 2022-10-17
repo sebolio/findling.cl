@@ -2,6 +2,16 @@ export default {
     last: true,
     items: [
         {
+            title: 'Digitienda',
+            description: 'SaaS software for stores to manage their inventory, sales, and customers.',
+            images: [
+                {src: 'digitienda1.jpg' },
+                {src: 'digitienda2.jpg' },
+                {src: 'digitienda3.jpg' },
+                {src: 'digitienda4.jpg' },
+            ]
+        },
+        {
             title: 'ETP',
             description: 'SaaS software for knowledge management, built in my visual framework `Elder`. Developed for a company who sells it to their customers.',
             images: [
