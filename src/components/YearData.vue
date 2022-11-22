@@ -25,7 +25,7 @@ const imageMap = props.images ? ['', ...props.images.map(image => image.src ? as
       >
         <template #content>
           <img :src="assetLocation('/thumbs/'+image.src)" width="300" v-if="image.src && assetLocation" />
-          <p v-if="image.alt" style="text-align: center;">Click to enlarge</p>
+          <p v-if="image.alt" style="text-align: center;">{{image.alt===true?'Click to enlarge':image.alt}}</p>
         </template>
         <br><img :src="assetLocation('/thumbs/'+image.src)" height="50" class="file" v-if="image.src && assetLocation" />
       </Popper>

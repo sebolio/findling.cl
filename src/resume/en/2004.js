@@ -7,7 +7,7 @@ export default {
             ]
         },
         {
-            title: 'Ucrania',
+            title: 'Konkest',
             description: 'Online web-based game about building an imperium and conquering Ucraine.',
             images: [
             ]
