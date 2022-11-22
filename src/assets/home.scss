@@ -124,8 +124,12 @@ ul.year-data {
 @media print {
   .info {
     h3 {
-      font-size: 30px !important;
-      line-height: 33px !important;
+      font-size: 20px !important;
+      line-height: 30px !important;
+      padding-left: 20px !important;
+      li {
+        font-size: 19px !important;
+      }
     }
     .name {
       h1 {
@@ -197,10 +201,15 @@ ul.year-data {
       float: left;
       margin: 0px;
       margin-top: 70px;
-      margin-left: -0px;
+      // margin-left: -0px;
+      margin-left: -19px;
       padding: 0px;
       font-size: .8rem;
       line-height: .99rem;
+
+      font-size: 1.3rem;
+      font-weight: 300;
+      line-height: 1.55rem;
 
       li {
         font-size: 15px;
@@ -216,7 +225,7 @@ ul.year-data {
 
       i {
         // font-style: normal;
-        // font-size: 1.5rem;
+        font-size: 2.23rem;;
         margin: 0.3rem 0.26rem 0.5rem;
       }
     }

@@ -53,7 +53,7 @@ onMounted(async _ => {
           <br><br>
           <li>Email: sebastian@findling.cl</li>
           <li>Phone: +569 </li>
-          <li>Portfolio: <a href="https://findling.cl">https://findling.cl</a></li>
+          <li>Portfolio: <a href="https://www.findling.cl">https://findling.cl</a></li>
           <li>Residence: Santiago de Chile</li>
           <br><br><br>
         </h3>
@@ -80,7 +80,7 @@ onMounted(async _ => {
           />
         </ul>
       </Year>
-      <h2>Phew... that's a lot</h2>
+      <h2 class="screen">Phew... that's a lot</h2>
 
     </div>
   </div>
