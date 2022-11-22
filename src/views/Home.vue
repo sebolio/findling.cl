@@ -7,9 +7,11 @@ import YearData from '../components/YearData.vue';
 const yearStartingSide = 1; //1:left, 0:right
 const locale = 'en';
 let resume = ref([]);
+let phone = ref(null);
 
 onMounted(async _ => {
   resume.value = await getResume(locale);
+  phone.value = localStorage.getItem('phone');
 })
 </script>
 
@@ -52,7 +54,7 @@ onMounted(async _ => {
           I am a software developer with over 20 years of experience, interested in creativity and functionality. I have been an entrepreneur, led technology departments and teams, been incubated by 500Startups, worked freelance and in teams of all sizes.
           <br><br>
           <li>Email: sebastian@findling.cl</li>
-          <li>Phone: +569 </li>
+          <li>Phone: +569 {{phone}}</li>
           <li>Portfolio: <a href="https://www.findling.cl">https://findling.cl</a></li>
           <li>Residence: Santiago de Chile</li>
           <br><br><br>
