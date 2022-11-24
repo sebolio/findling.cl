@@ -1,6 +1,6 @@
 export default {
     items: [{
-            title: 'CTO at Dreamoms since 2021',
+            title: 'CTO at Puntero since 2021',
             description: 'We created a platform with services for current and future mothers, \
                           which offers online courses with videos and video calls, tests,\
                           professional help with real-time scheduling and more.',
