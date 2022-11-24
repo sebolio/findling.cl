@@ -2,6 +2,13 @@ export default {
     last: true,
     items: [
         {
+            title: 'Psico Plus',
+            description: 'Software for psychologists, that allows them to manage their patients, appointments, and payments, built in my visual framework `Elder`.',
+            images: [
+                { src:'psicoplus.jpg' },
+            ]
+        },
+        {
             title: 'Elder',
             description: 'Software Framework that allowed me to easily create small software with my own prebuilt blocks, in a visual way.',
             images: [
