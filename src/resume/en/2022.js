@@ -19,8 +19,8 @@ export default {
             description: 'Released my website as an open-source project. It allows me to show my work and\
                           skills in a simple and clean way, with a simple object API.',
             images: [
-                { src: 'seb.cl.jpg' },
-                { src: 'seb.cl-easy-resume.jpg' },
+                { src: 'seb1.jpg' },
+                { src: 'seb2.jpg' },
             ]
         },
     ],
