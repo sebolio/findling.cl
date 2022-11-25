@@ -1,9 +1,7 @@
 export default {
     items: [{
-            title: 'CTO at Dreamoms since 2021',
-            description: 'We created a platform with services for current and future mothers, \
-                          which offers online courses with videos and video calls, tests,\
-                          professional help with real-time scheduling and more.',
+            title: 'Dreamoms',
+            description: 'Directed an developed an online course platform, that included video calls and activity organization.',
             images: [
                 { src: 'dreamoms1.jpg', alt: 'Course viewer' },
                 { src: 'dreamoms3.jpg', alt: 'Conversations' },
@@ -17,21 +15,9 @@ export default {
             ]
         },
         {
-            title: '1n',
-            description: 'Marketing platform that sends automated rating requests to your customers, showing\
-                          real-time feedback and rating results. It also supplies a platform for your customers \
-                          to rate your services and products.',
-            images: [
-                { src: '1n-solicitud.jpg' },
-                { src: '1n-form.jpg' },
-                { src: '1n-valoracion.jpg' },
-                { src: '1n-opiniones.jpg' },
-            ]
-        },
-        {
             title: 'seb.cl',
             description: 'Released my website as an open-source project. It allows me to show my work and\
-                          skills in a simple and clean way, with an easy-to-use object API.',
+                          skills in a simple and clean way, with a simple object API.',
             images: [
                 { src: 'seb.cl.jpg' },
                 { src: 'seb.cl-easy-resume.jpg' },

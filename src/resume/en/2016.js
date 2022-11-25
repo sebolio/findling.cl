@@ -3,7 +3,7 @@ export default {
     items: [
         {
             title: 'Puntero',
-            description: 'Found my own company with the vision of developing many software quickly, by developing a platform that would allow me to modularize and reuse everything, which I called `Elder`, and created 6 big projects in 2 years before selling it.',
+            description: 'Founded my own company with the vision of developing many software quickly, by developing a platform that would allow me to modularize and reuse everything, which I called `Elder`, and created 6 big projects in 2 years before selling it.',
             images: [
                 {src: 'puntero.jpg' },
             ]
