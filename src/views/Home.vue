@@ -55,7 +55,7 @@ onMounted(async _ => {
           <br><br>
           <li>Email: sebastian@findling.cl</li>
           <li>Phone: +569 {{phone}}</li>
-          <li>Portfolio: <a href="https://www.findling.cl">https://findling.cl</a></li>
+          <li>Portfolio: <a href="https://seb.cl">seb.cl</a></li>
           <li>Residence: Santiago de Chile</li>
           <br><br><br>
         </h3>
@@ -63,7 +63,7 @@ onMounted(async _ => {
     </div>
 
     <div class="resume">
-      <h2>Experience <!--<a class="view-seb" href="https://seb.cl">Interactive version available in <b>www.seb.cl</b></a>--></h2>
+      <h2>Experience <a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
       <Year
         v-for="(year, i) in resume"
         :year="year.year"

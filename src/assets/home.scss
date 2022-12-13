@@ -107,7 +107,7 @@ ul.year-data {
     &:hover {
       color: rgb(212, 62, 3);
     }
-    
+
     &:active {
       color: rgb(130, 37, 1);
     }
@@ -350,13 +350,28 @@ ul {
 
 .view-seb,
 .view-seb:hover {
-  display: block;
-  background-color: rgb(255, 94, 0);
-  padding: 5px;
+  display: none;
+  background: rgb(255, 94, 0);
+  -webkit-print-color-adjust: exact;
+  -moz-print-color-adjust: exact;
+  -ms-print-color-adjust: exact;
+  print-color-adjust: exact;
+  padding: 5px 10px;
+  border-radius: 5px;
   text-decoration: none;
-  width: 270px;
+  // width: 220px;
   color: white;
   margin: auto;
   border: 1px solid;
-  font-size: 1rem;
+  margin-left: 20px;
+  transform: translateY(-5px);
+  font-size: 1.2rem;
+}
+
+@media print {
+
+  .view-seb,
+  .view-seb:hover {
+    display: inline-block;
+  }
 }
