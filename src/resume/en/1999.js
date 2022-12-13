@@ -1,8 +1,8 @@
 export default {
     items: [
         {
-            title: '#Amigos and #Hackers',
-            description: 'Founded two IRC channels with near 40 members each.',
+            title: 'Granville\'s School website',
+            description: 'I made a small website for my school, as an end-year project.',
             images: [
             ]
         },

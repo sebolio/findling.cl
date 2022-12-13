@@ -7,8 +7,8 @@ export default {
             ]
         },
         {
-            title: 'Konkest',
-            description: 'Online web-based game about building an imperium and conquering Ucraine.',
+            title: 'Conquista',
+            description: 'Web-based multiplayer game about building an empire an conquering other players\' ones.',
             images: [
             ]
         },
