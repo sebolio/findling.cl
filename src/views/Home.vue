@@ -25,7 +25,7 @@ onMounted(async _ => {
           <h1>Sebastián Findling</h1>
           <div class="icons screen">
               <Popper content="WhatsApp" hover arrow :interactive="false">
-                <a href="//wa.me/56937067212" target="_blank">
+                <a href="//wa.me/56940194339" target="_blank">
                   <i class="fa-brands fa-whatsapp-square"></i>
                 </a>
               </Popper>
@@ -35,7 +35,7 @@ onMounted(async _ => {
                 </a>
               </Popper>
               <Popper content="GitHub" hover arrow :interactive="false">
-                <a href="//github.com/sebfindling" target="_blank">
+                <a href="//github.com/sebfindling/seb.cl" target="_blank">
                   <i class="fa-brands fa-github-square"></i>
                 </a>
               </Popper>
