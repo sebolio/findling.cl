@@ -24,21 +24,21 @@ onMounted(async _ => {
           <img src="@/assets/avatar.jpg" width="200" />
           <h1>Sebastián Findling</h1>
           <div class="icons screen">
-              <Popper content="WhatsApp" hover arrow :interactive="false">
-                <a href="//wa.me/56940194339" target="_blank">
-                  <i class="fa-brands fa-whatsapp-square"></i>
-                </a>
-              </Popper>
-              <Popper content="Linkedin" hover arrow :interactive="false">
-                <a href="//linkedin.com/in/sebastian-findling" target="_blank">
-                  <i class="fa-brands fa-linkedin"></i>
-                </a>
-              </Popper>
-              <Popper content="GitHub" hover arrow :interactive="false">
-                <a href="//github.com/sebfindling/seb.cl" target="_blank">
-                  <i class="fa-brands fa-github-square"></i>
-                </a>
-              </Popper>
+            <Popper content="Linkedin" hover arrow :interactive="false">
+              <a href="//linkedin.com/in/sebastian-findling" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </Popper>
+            <Popper content="WhatsApp" hover arrow :interactive="false">
+              <a href="//wa.me/56940194339" target="_blank">
+                <i class="fa-brands fa-whatsapp-square"></i>
+              </a>
+            </Popper>
+            <Popper content="Blog personal" hover arrow :interactive="false">
+              <a href="/blog" target="_blank">
+                <i class="fa-brands fa-blogger"></i>
+              </a>
+            </Popper>
               <!-- <Popper content="Music" hover arrow :interactive="false">
                 <a href="//soundcloud.com/rojosostenido" target="_blank">
                   <i class="fa-solid fa-square-caret-right"></i>

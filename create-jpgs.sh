@@ -1,5 +1,10 @@
+dir="/mnt/c/Users/Yo/OneDrive/Desarrollo/Emprendimiento/Seb/captures-original"
+total=$(find $dir -type f | wc -l)
+
 #captures
-sips -Z 1500 --setProperty format jpeg --setProperty formatOptions 90 /Users/seb/OneDrive/Desarrollo/Emprendimiento/Seb/captures-original/*.png -o public/captures
+echo "\nCreating $total captures.."
+find $dir -type f -printf "%f\n" | xargs -I% echo $dir/% -resize 1500x1500 -quality 90 docs/captures/% | sed -r 's/png/jpg/2' | xargs -I% bash -c 'convert %'
 
 #thumbs
-sips -Z 300 --setProperty format jpeg --setProperty formatOptions 50 /Users/seb/OneDrive/Desarrollo/Emprendimiento/Seb/captures-original/*.png -o public/thumbs
+echo "Creating $total thumbnails.."
+find $dir -type f -printf "%f\n" | xargs -I% echo $dir/% -resize 300x300 -quality 90 docs/thumbs/% | sed -r 's/png/jpg/2' | xargs -I% bash -c "convert %" 
