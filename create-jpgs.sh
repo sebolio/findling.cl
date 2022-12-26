@@ -3,8 +3,8 @@ total=$(find $dir -type f | wc -l)
 
 #captures
 echo "\nCreating $total captures.."
-find $dir -type f -printf "%f\n" | xargs -I% echo $dir/% -resize \\\'1500x1500\>\\\' -quality 90 public/captures/% | sed -r 's/png/jpg/2' | xargs -I% bash -c "convert %"
+find $dir -type f -printf "%f\n" | xargs -I% echo $dir/% -resize \\\'1500x1500\>\\\' -quality 90 -interlace plane public/captures/% | sed -r 's/png/jpg/2' | xargs -I% bash -c "convert %" 
 
 #thumbs
 echo "Creating $total thumbnails.."
-find $dir -type f -printf "%f\n" | xargs -I% echo $dir/% -resize \\\'300x300\>\\\' -quality 90 public/thumbs/% | sed -r 's/png/jpg/2' | xargs -I% bash -c "convert %" 
+find $dir -type f -printf "%f\n" | xargs -I% echo $dir/% -resize \\\'300x300\>\\\' -quality 90 -interlace plane public/thumbs/% | sed -r 's/png/jpg/2' | xargs -I% bash -c "convert %" 
