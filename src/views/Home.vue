@@ -35,7 +35,7 @@ onMounted(async _ => {
               </a>
             </Popper>
             <Popper content="Blog personal" hover arrow :interactive="false">
-              <a href="/blog" target="_blank">
+              <a href="https://puntero.cl" target="_blank">
                 <i class="fa-brands fa-blogger"></i>
               </a>
             </Popper>
@@ -47,7 +47,7 @@ onMounted(async _ => {
           </div>
         </section>
         <h3 class="screen">
-          Tech Lead at AFEX, founder of <a href="//puntero.cl" target="_blank">Puntero</a>.
+          Tech Lead at AFEX, founder of Puntero.
           Creativity in software development and consultancy. Over 24 years' experience.
         </h3>
         <h3 class="print">
