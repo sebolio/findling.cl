@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir dist",
+    "build": "vite build --outDir docs",
     "preview": "vite preview --port 5050",
-    "publish": "rsync -r dist/* hosting:public_html"
+    "publish": "rsync -r docs/* hosting:public_html"
   },
   "dependencies": {
     "vue": "^3.2.29",
