@@ -35,7 +35,7 @@ onMounted(async _ => {
               </a>
             </Popper>
             <Popper content="Blog personal" hover arrow :interactive="false">
-              <a href="https://puntero.cl" target="_blank">
+              <a href="https://seb.cl" target="_blank">
                 <i class="fa-brands fa-blogger"></i>
               </a>
             </Popper>
