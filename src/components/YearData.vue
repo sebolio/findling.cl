@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue';
 import '@/assets/year-data.scss';
+import MarkdownLinksInNewTab from './MarkdownLinksInNewTab.vue';
 
 const props = defineProps(['title', 'description', 'images', 'last'])
 const currentOpenImage = ref(null);
@@ -12,7 +13,9 @@ const imageMap = props.images ? ['', ...props.images.map(image => image.src ? as
   <li class="year-data" :class="{last: last}">
     <h3>{{ title }}</h3>
     <p>
-      <Markdown :source="description" />
+      <MarkdownLinksInNewTab :source="description">
+        <Markdown :source="description" />
+      </MarkdownLinksInNewTab>
     </p>
     <div class="images">
       <Popper

@@ -3,7 +3,7 @@ export default {
     items: [
         {
             title: 'Digitienda',
-            description: 'SaaS software for stores to manage their inventory, sales, and customers, built in my visual framework `Elder`.',
+            description: 'SaaS software for stores to manage their inventory, sales, and customers, built in my visual framework `Elder`. **See it in action in [this video](https://youtu.be/nDZJk1rS0eI)**.',
             images: [
                 {src: 'digitienda1.jpg' },
                 {src: 'digitienda2.jpg' },
