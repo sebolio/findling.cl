@@ -30,7 +30,7 @@ onMounted(async _ => {
               </a>
             </Popper>
             <Popper content="WhatsApp" hover arrow :interactive="false">
-              <a href="//wa.me/56940194339" target="_blank">
+              <a href="//wa.me/56999997940" target="_blank">
                 <i class="fa-brands fa-whatsapp-square"></i>
               </a>
             </Popper>
