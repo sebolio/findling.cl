@@ -175,6 +175,15 @@ ul.year-data {
   margin-top: 400px;
 }
 
+.desktop { display: block !important; }
+
+
+@media screen and (max-width: 800px) {
+    .desktop {
+        display: none !important;
+    }    
+}
+
 @media screen and (max-width: 800px),
 print {
   .circle {

@@ -40,7 +40,7 @@ onMounted(async _ => {
               </a>
             </Popper>
             <Popper content="Public code for this website" hover arrow :interactive="false">
-              <a href="https://github.com/sebolio/seb.cl" target="_blank">
+              <a class="desktop" href="https://github.com/sebolio/seb.cl" target="_blank">
                 <i class="fa-brands fa-github-square"></i>
               </a>
             </Popper>
