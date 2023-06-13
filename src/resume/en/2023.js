@@ -9,7 +9,7 @@ export default {
         ]
     },
     {
-        title: 'Fichero',
+        title: 'Fichero.net',
         description: 'Created an online patient-management software that can be used by any \
         professional related to medicine.',
         images: [
