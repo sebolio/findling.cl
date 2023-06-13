@@ -34,9 +34,14 @@ onMounted(async _ => {
                 <i class="fa-brands fa-whatsapp-square"></i>
               </a>
             </Popper>
-            <Popper content="Blog personal" hover arrow :interactive="false">
-              <a href="https://findli.ng" target="_blank">
+            <Popper content="Personal blog" hover arrow :interactive="false">
+              <a href="https://findling.cl" target="_blank">
                 <i class="fa-brands fa-blogger"></i>
+              </a>
+            </Popper>
+            <Popper content="Public code for this website" hover arrow :interactive="false">
+              <a href="https://github.com/sebolio/seb.cl" target="_blank">
+                <i class="fa-brands fa-github-square"></i>
               </a>
             </Popper>
               <!-- <Popper content="Music" hover arrow :interactive="false">
@@ -47,7 +52,7 @@ onMounted(async _ => {
           </div>
         </section>
         <h3 class="screen">
-          Tech Lead at AFEX, founder of Puntero.
+            Software Architect at AFEX, founder of Puntero.
           Creativity in software development and consultancy. Over 24 years' experience.
         </h3>
         <h3 class="print">
