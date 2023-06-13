@@ -24,4 +24,5 @@ This project is configured to use GitHub Pages, so once you push it, the website
 ```
 git add -A
 git commit -m "commit message"
+git push
 ```
