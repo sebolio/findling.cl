@@ -20,7 +20,7 @@ npm run build
 ```
 
 ### Deployment CI/CD
-This project is configured to use GitHub Pages, so once you push it, the website will be automatically deployed.
+This project is configured to use GitHub Pages, so once you push it, the website will be automatically deployed using **GitHub Actions**.
 ```
 git add -A
 git commit -m "commit message"
