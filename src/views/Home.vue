@@ -25,7 +25,7 @@ onMounted(async _ => {
           <h1>Sebastián Findling</h1>
           <div class="icons screen">
             <Popper content="Linkedin" hover arrow :interactive="false">
-              <a href="//linkedin.com/in/sebastian-findling" target="_blank">
+              <a href="//linkedin.com/in/findling" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </Popper>
@@ -52,7 +52,7 @@ onMounted(async _ => {
           </div>
         </section>
         <h3 class="screen">
-            Software Architect at AFEX, founder of Puntero.
+          Software Architect at AFEX, founder of <a href="https://puntero.cl" target="_blank">Puntero</a>.
           Creativity in software development and consultancy. Over 24 years' experience.
         </h3>
         <h3 class="print">
