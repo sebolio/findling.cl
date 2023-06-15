@@ -8,13 +8,13 @@ export default {
             { src: 'afex2.jpg' },
         ]
     },
-    {
-        title: 'Fichero.net',
-        description: 'Created an online patient-management software that can be used by any \
-        professional related to medicine.',
-        images: [
-            { src: 'fichero1.jpg' },
-        ]
-    },
+        // {
+        //     title: 'Fichero.net',
+        //     description: 'Created an online patient-management software that can be used by any \
+        //     professional related to medicine.',
+        //     images: [
+        //         { src: 'fichero1.jpg' },
+        //     ]
+        // },
     ],
 }
