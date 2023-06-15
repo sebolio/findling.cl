@@ -1,7 +1,7 @@
 export default {
     items: [{
-        title: 'CTO at Dreamoms since 2021',
-        description: 'As CTO, I was in charge of designing and development the platform base, as well as buliding the development team and taking strategic decisions.',
+        title: 'Dreamoms',
+        description: 'Developed an designed an online courses platform, for which I took all tech decisions and built a base platform, then hired a second developer to help finishing the final product.',
         images: [
             { src: 'dreamoms1.jpg', alt: 'Course viewer' },
             { src: 'dreamoms3.jpg', alt: 'Conversations' },
@@ -16,8 +16,7 @@ export default {
     },
     {
         title: 'seb.cl',
-        description: 'My open-source website, which allows me to show my work and\
-                          skills in a simple and clean way, with a simple object API.',
+        description: 'Built my personal website on Vue 3, then released its source code as a template for anyone to use.',
         images: [
             { src: 'seb1.jpg' },
             { src: 'seb2.jpg' },

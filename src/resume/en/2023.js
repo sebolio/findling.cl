@@ -1,11 +1,11 @@
 export default {
     items: [{
-        title: 'Software Architect at AFEX since 2022',
-        description: 'As Software Architect, I\'m in charge of taking sensitive technology decisions in order to make projects scalable, in addition to supporting Leads and Product Owners.',
+        title: 'AFEX+',
+        description: 'Developed the internal framework on top of which every project is currently developed at AFEX,\
+        working as Software Architect since 2022, in charge of taking decisions for 4 development teams.',
         images: [
             { src: 'afex1.jpg' },
             { src: 'afex2.jpg' },
-            { src: 'afex3.jpg' },
         ]
     },
     {
