@@ -69,7 +69,7 @@ onMounted(async _ => {
 
     <div class="resume">
       <h2>Experience <a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
-      <h4>All projects developed 100% by myself, unless otherwise mentioned.</h4>
+      <h4>Projects listed below are my sole creations, unless noted otherwise.</h4>
       <Year
         v-for="(year, i) in resume"
         :year="year.year"
