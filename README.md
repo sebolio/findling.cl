@@ -5,7 +5,7 @@
 ---
 
 ### Hosting (GitHub Pages)
-You don't need to pay a hosting service, I use [GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) for free.
+Use [GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) for free hosting.
 
 ### Development server
 
