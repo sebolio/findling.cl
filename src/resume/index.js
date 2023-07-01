@@ -1,6 +1,14 @@
+/**
+* Note:
+* Originally I wanted to have both spanish and english versions of my site, but I ended up
+* only writting it in english.
+*
+* This architecture makes it easy to implement multi-language if you so want to.
+*/
+
 //fetch all years using Vite's glob import
-const resume_es = import.meta.globEager('./es/*.js')
 const resume_en = import.meta.globEager('./en/*.js')
+//const resume_es = import.meta.globEager('./es/*.js')
 
 export async function getResume(locale) {
     const wantedResume = locale === 'es' ? resume_es : resume_en
