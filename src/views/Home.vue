@@ -10,8 +10,8 @@ let resume = ref([]);
 let phone = ref(null);
 
 onMounted(async _ => {
-  resume.value = await getResume(locale);
-  phone.value = localStorage.getItem('phone');
+    resume.value = await getResume(locale);
+    phone.value = localStorage.getItem('phone');
 })
 </script>
 
@@ -23,43 +23,17 @@ onMounted(async _ => {
         <section class="name">
           <img src="@/assets/avatar.jpg" width="200" />
           <h1>Sebastián Findling</h1>
-          <div class="icons screen">
-            <Popper content="Linkedin" hover arrow :interactive="false">
-              <a href="//linkedin.com/in/findling" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-            </Popper>
-            <Popper content="WhatsApp" hover arrow :interactive="false">
-              <a href="//wa.me/56999997940" target="_blank">
-                <i class="fa-brands fa-whatsapp-square"></i>
-              </a>
-            </Popper>
-            <Popper content="Personal blog" hover arrow :interactive="false">
-              <a href="https://findling.cl" target="_blank">
-                <i class="fa-brands fa-blogger"></i>
-              </a>
-            </Popper>
-            <Popper content="Public code for this website" hover arrow :interactive="false">
-              <a class="desktop" href="https://github.com/sebolio/seb.cl" target="_blank">
-                <i class="fa-brands fa-github-square"></i>
-              </a>
-            </Popper>
-              <!-- <Popper content="Music" hover arrow :interactive="false">
-                <a href="//soundcloud.com/rojosostenido" target="_blank">
-                  <i class="fa-solid fa-square-caret-right"></i>
-                </a>
-              </Popper> -->
-          </div>
+          <!-- <div class="icons screen">
+          </div> -->
         </section>
         <h3 class="screen">
-          Software Architect at AFEX, founder of <a href="https://puntero.cl" target="_blank">Puntero</a>.
-          Creativity in software development and consultancy. Over 24 years' experience.
+            Senior Software Developer
         </h3>
         <h3 class="print">
           I am a software developer with over 20 years of experience, interested in creativity and functionality. I have been an entrepreneur, led technology departments and teams, been incubated by 500Startups, worked freelance and in teams of all sizes.
           <br><br>
           <li>Email: sebastian@findling.cl</li>
-          <li>Phone: +569 {{phone}}</li>
+          <li>Phone: +569 {{ phone }}</li>
           <li>Portfolio: <a href="https://seb.cl">seb.cl</a></li>
           <li>Residence: Santiago de Chile</li>
           <br><br><br>

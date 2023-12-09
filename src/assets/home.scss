@@ -97,15 +97,25 @@ ul.year-data {
     margin-bottom: 20px !important;
   }
 
+  /* My description */
   h3 {
-    font-size: 1rem;
-    margin-top: 3rem;
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
     line-height: 1.5rem;
+    text-align: center;
 
     .inline-block {
       border-top: none !important;
       border-bottom: none !important;
     }
+  }
+  @media screen and (max-width: 800px) {
+    h3 {
+      font-size: 1.1rem !important;
+      line-height: 1.2rem;
+      text-align: left;
+    }
+    
   }
 
   a {
@@ -230,7 +240,7 @@ print {
   .info {
     width: 100%;
     display: block;
-    height: 180px;
+    height: 140px;
     position: relative;
 
     .name {
