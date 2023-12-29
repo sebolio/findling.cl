@@ -23,12 +23,37 @@ onMounted(async _ => {
         <section class="name">
           <img src="@/assets/avatar.jpg" width="200" />
           <h1>Sebastián Findling</h1>
-          <!-- <div class="icons screen">
-          </div> -->
-        </section>
-        <h3 class="screen">
+          <h3 class="role screen">
             Senior Software Developer
-        </h3>
+          </h3>
+          <div class="icons screen">
+            <Popper content="Linkedin" hover arrow :interactive="false">
+              <a href="//linkedin.com/in/findling" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </Popper>
+            <Popper content="WhatsApp" hover arrow :interactive="false">
+              <a href="//wa.me/56999997940" target="_blank">
+                <i class="fa-brands fa-whatsapp-square"></i>
+              </a>
+            </Popper>
+            <!-- <Popper content="Personal blog" hover arrow :interactive="false">
+              <a href="https://findling.cl" target="_blank">
+                <i class="fa-brands fa-blogger"></i>
+              </a>
+            </Popper> -->
+            <Popper content="My Github repo" hover arrow :interactive="false">
+              <a class="desktop" href="https://github.com/sebolio" target="_blank">
+                <i class="fa-brands fa-github-square"></i>
+              </a>
+            </Popper>
+              <!-- <Popper content="Music" hover arrow :interactive="false">
+                <a href="//soundcloud.com/rojosostenido" target="_blank">
+                  <i class="fa-solid fa-square-caret-right"></i>
+                </a>
+              </Popper> -->
+          </div>
+        </section>
         <h3 class="print">
           I am a software developer with over 20 years of experience, interested in creativity and functionality. I have been an entrepreneur, led technology departments and teams, been incubated by 500Startups, worked freelance and in teams of all sizes.
           <br><br>
@@ -42,7 +67,9 @@ onMounted(async _ => {
     </div>
 
     <div class="resume">
-      <h2>Experience <a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
+      <h2>Welcome! 😃<a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
+        <h5>I'm a senior developer with 27 years' experience (since 1996).</h5>
+        <h5>Most of these projects were developed solely by myself, unless specified.</h5>
       <!-- <h4>Projects developed just by myself, unless noted otherwise.</h4> -->
       <Year
         v-for="(year, i) in resume"
@@ -62,7 +89,7 @@ onMounted(async _ => {
           />
         </ul>
       </Year>
-      <h2 class="screen">Phew... that's a lot</h2>
+      <h2 class="screen">Phew... that's a lot 😅</h2>
 
     </div>
   </div>
