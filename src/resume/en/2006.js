@@ -11,7 +11,16 @@ export default {
             title: 'Academia de Matemáticas',
             description: 'Educational platform that allowed my client\'s students to get materials and submit their tests, and the parents to check their kid\'s progress.',
             images: [
-                'https://findling.cl/wp-content/uploads/2020/11/vm3.jpg'
+                {src: 'am1.jpg', alt: ''},
+                {src: 'am2.jpg', alt: ''},
+                {src: 'am2.1.jpg', alt: ''},
+                {src: 'am3.jpg', alt: ''},
+                {src: 'am4.jpg', alt: ''},
+                {src: 'am5.jpg', alt: ''},
+                {src: 'am6.jpg', alt: ''},
+                {src: 'am7.jpg', alt: ''},
+                {src: 'am8.jpg', alt: ''},
+                {src: 'am9.jpg', alt: ''},
             ]
         },
     ],
