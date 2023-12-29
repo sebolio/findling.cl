@@ -10,20 +10,19 @@ Use [GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-
 ### Development server
 
 ```sh
-npm i
-npm run dev
+pnpm i
+pnpm dev
 ```
 
 ### Building
 This script builds the project into the `docs` folder, to take advantage of GitHub's [web hosting service](https://pages.github.com).
 ```sh
-npm run build
+pnpm build
 ```
 
 ### Deployment CI/CD
 This project is configured to use GitHub Pages, so once you push it, the website will be automatically deployed using **GitHub Actions**.
 ```
 git add -A
-git commit -m "commit message"
-git push
+git commit -m "Updated my beautiful site" && git push
 ```
