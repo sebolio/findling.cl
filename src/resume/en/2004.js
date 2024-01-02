@@ -9,7 +9,7 @@ export default {
             ]
         },
         {
-            title: 'Poggio Advogados (Brasil)',
+            title: 'Poggio Advogados (Brazil)',
             description: 'Website for a brazilian law firm that included my news managing system (Nius) and dynamic templates.',
             images: [
                 {src: 'poggio1.jpg', alt: ''},
