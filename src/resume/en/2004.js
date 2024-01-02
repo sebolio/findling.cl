@@ -9,6 +9,14 @@ export default {
             ]
         },
         {
+            title: 'Poggio Advogados (Brasil)',
+            description: 'Website for a brazilian law firm that included my news managing system (Nius) and dynamic templates.',
+            images: [
+                {src: 'poggio1.jpg', alt: ''},
+                {src: 'poggio2.jpg', alt: ''},
+            ]
+        },
+        {
             title: 'Olsia',
             description: 'Web-based multiplayer game about building an empire an conquering other players\' ones.',
             images: [
