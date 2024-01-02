@@ -1,14 +1,14 @@
 <script setup>
-import { defineProps, onMounted } from 'vue'
+import { onMounted } from 'vue'
 defineProps(['source'])
 onMounted(() => {
-  setTimeout(() => {
-    const links = document.querySelectorAll('.links-in-new-tab a')
-    links.forEach(link => {
-      link.setAttribute('target', '_blank')
-      link.setAttribute('rel', 'noopener noreferrer')
-    })
-  }, 2000)
+    setTimeout(() => {
+        const links = document.querySelectorAll('.links-in-new-tab a')
+        links.forEach(link => {
+            link.setAttribute('target', '_blank')
+            link.setAttribute('rel', 'noopener noreferrer')
+        })
+    }, 2000)
 })
 </script>
 <template>

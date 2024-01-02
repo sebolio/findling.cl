@@ -4,7 +4,8 @@ export default {
             title: 'Arconte',
             description: 'Content Management System made in PHP, that allowed my clients to manage the websites I sold them.',
             images: [
-                'https://findling.cl/wp-content/uploads/2020/11/vm3.jpg'
+                {src: 'arconte1.jpg', alt: ''},
+                {src: 'arconte2.jpg', alt: ''},
             ]
         },
         {
@@ -17,6 +18,7 @@ export default {
                 {src: 'am3.jpg', alt: ''},
                 {src: 'am4.jpg', alt: ''},
                 {src: 'am5.jpg', alt: ''},
+                {src: 'am5.1.jpg', alt: ''},
                 {src: 'am6.jpg', alt: ''},
                 {src: 'am7.jpg', alt: ''},
                 {src: 'am8.jpg', alt: ''},

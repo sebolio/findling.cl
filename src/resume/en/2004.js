@@ -4,6 +4,8 @@ export default {
             title: 'Ni Uno',
             description: 'Public ad publishing platform focused on SEO positioning.',
             images: [
+                {src: 'niuno1.jpg', alt: ''},
+                {src: 'niuno2.jpg', alt: ''},
             ]
         },
         {
