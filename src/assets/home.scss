@@ -276,9 +276,10 @@ print {
       width: calc(100vw - 200px); //200=PDF, 160=web
       float: left;
       margin: 0px;
-      margin-top: 70px;
+      margin-top: -70px;
       // margin-left: -0px;
-      margin-left: -19px;
+      // margin-left: -19px;
+      margin-left: 160px;
       padding: 0px;
       font-size: .8rem;
       line-height: .99rem;
@@ -296,8 +297,8 @@ print {
       position: absolute;
       width: 180px;
       height: 50px;
-      left: 0px;
-      top: 130px;
+      left: 105px;
+      top: 90px;
 
       i {
         // font-style: normal;
