@@ -35,12 +35,11 @@
     function phone(n) {
         localStorage.setItem('phone', n);
     }
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
+
     gtag('config', 'UA-158092388-1');
 </script>
 
