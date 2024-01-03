@@ -42,7 +42,7 @@ onMounted(async _ => {
                 <i class="fa-brands fa-blogger"></i>
               </a>
             </Popper> -->
-            <Popper content="My Github repo" hover arrow :interactive="false">
+            <Popper content="My GitHub repo" hover arrow :interactive="false">
               <a class="desktop" href="https://github.com/sebolio" target="_blank">
                 <i class="fa-brands fa-github-square"></i>
               </a>
