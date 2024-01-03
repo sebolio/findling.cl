@@ -5,7 +5,8 @@ export default {
             title: 'Puntero',
             description: 'Founded my own company with the vision of developing many software quickly, by developing a platform that would allow me to modularize and reuse everything, which I called `Elder`, and created 6 big projects in 2 years before selling it.',
             images: [
-                {src: 'puntero.jpg' },
+                {src: 'puntero1.jpg' },
+                {src: 'puntero2.jpg', alt: 'Francisco, Puntero\'s first employee.' },
             ]
         },
         {

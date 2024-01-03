@@ -10,7 +10,7 @@ export default {
         },
         {
             title: 'Elder',
-            description: 'Software Framework that allowed me to easily create small software with my own prebuilt blocks, in a visual way.',
+            description: 'Software Framework that allowed me to easily create small software with my own prebuilt blocks, at my company Puntero.',
             images: [
                 { src:'elder1.jpg' },
                 { src:'elder2.jpg' },
@@ -19,6 +19,7 @@ export default {
                 { src:'elder5.jpg' },
                 { src:'elder6.jpg' },
                 { src:'elder7.jpg' },
+                { src:'elder8.jpg', alt: 'Competing in Argentina for funding.' },
             ]
         },
     ],
