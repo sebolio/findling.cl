@@ -69,7 +69,6 @@ onMounted(async _ => {
     <div class="resume">
       <h2>Welcome! 😃<a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
         <h5>I'm a senior developer with 28 years' experience (since 1996).</h5>
-        <h5>Most of these projects were developed solely by myself, unless specified.</h5>
       <!-- <h4>Projects developed just by myself, unless noted otherwise.</h4> -->
       <Year
         v-for="(year, i) in resume"
