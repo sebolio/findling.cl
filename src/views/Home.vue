@@ -23,8 +23,11 @@ onMounted(async _ => {
         <section class="name">
           <img src="@/assets/avatar.jpg" width="200" />
           <h1>Sebastián Findling</h1>
-          <h3 class="role screen">
-            Senior Software Developer
+          <h3 class="role screen senior">
+              Senior Software Developer
+          </h3>
+          <h3 class="role screen sr">
+              Sr. Software Developer
           </h3>
           <div class="icons screen">
             <Popper content="Linkedin" hover arrow :interactive="false">
