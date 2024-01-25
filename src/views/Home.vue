@@ -58,7 +58,7 @@ onMounted(async _ => {
           </div>
         </section>
         <h3 class="print">
-          I am a software developer with over 28 years of experience, interested in creativity and functionality. I have been an entrepreneur, led technology departments and teams, been incubated by 500Startups, worked freelance and in teams of all sizes.
+          I am a senior software developer and tech lead with many years of experience.
           <br><br>
           <li>Email: sebastian@findling.cl</li>
           <li>Phone: +569 {{ phone }}</li>
@@ -71,7 +71,7 @@ onMounted(async _ => {
 
     <div class="resume">
       <h2>Welcome! 😃<a class="view-seb" href="https://seb.cl">View interactive version</a></h2>
-        <h5>I'm a senior developer with 28 years' experience (since 1996).</h5>
+        <h5>I am a senior software developer and tech lead with many years of experience.</h5>
       <!-- <h4>Projects developed just by myself, unless noted otherwise.</h4> -->
       <Year
         v-for="(year, i) in resume"
